@@ -14,10 +14,10 @@ async def join_request(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(
         chat_id=user.id,
         text=(
-            "😀Tu veux à tout prix encaisser mais tu sais pas qui suivre⁉️\n\n"
+            "🎁Tu veux à tout prix encaisser mais tu sais pas qui suivre🤔\n\n"
             "Voici les 2 meilleurs canaux à suivre absolument ⤵️\n\n"
-            f"😀Canal bonus : {FIRST_CHANNEL}\n\n"
-            f"😀Canal Montante : {SECOND_CHANNEL}\n\n"
+            f"🧨Canal bonus : {FIRST_CHANNEL}\n\n"
+            f"🪄Canal Montante : {SECOND_CHANNEL}\n\n"
             "📲Rejoins les 2 pour ne rien manquer et enfin encaisser comme tu le mérites🤑"
         )
     )
