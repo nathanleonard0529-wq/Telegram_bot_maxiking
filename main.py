@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, ChatJoinRequestHandler, ContextType
 
 TOKEN = os.getenv("TOKEN")
 
-FIRST_CHANNEL = "https://t.me/+ep52Zo7DFK4yMzdk"
+FIRST_CHANNEL = "https://t.me/+c8LLtYfFtYJkN2I8"
 SECOND_CHANNEL = "https://t.me/+V4WzZpQscNIxNDg0"
 
 async def join_request(update: Update, context: ContextTypes.DEFAULT_TYPE):
